@@ -60,7 +60,7 @@ int main(){
     } else if (40 <= trabalho && trabalho <= 50){
         printf("Segura a emocao, nao xinga ninguem, nao esquece de beber agua.");
     }else if (50 < trabalho && trabalho < 70){
-        printf("Por sua conta em risco.");
+        printf("Um dia proveitoso com certeza, leve sua simpatia consigo.");
     } else if (70 <= trabalho && trabalho <= 85){
         printf("Boas vibracoes hoje, chances podem estar ao seu redor.");
     }else{
@@ -104,9 +104,8 @@ int main(){
         case 10:
             printf("Cor: Branco.");
             break;
-        default:
-            printf("");
     }
+    printf("\n");
 
 
     return 0;
