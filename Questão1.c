@@ -64,7 +64,7 @@ int main(){
     } else if (70 <= trabalho && trabalho <= 85){
         printf("Boas vibracoes hoje, chances podem estar ao seu redor.");
     }else{
-        printf("Use do maximo de networking poss�vel hoje, dia bom para negocios.");
+        printf("Use do maximo de networking possível hoje, dia bom para negocios.");
     }
     int cor = (dia1*dia1 + dia2*dia2 + mes1*mes1 + mes2*mes2 + ano1*ano1 + ano2*ano2) % 11;
 
