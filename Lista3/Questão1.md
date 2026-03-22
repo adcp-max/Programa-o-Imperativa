@@ -1,1 +1,1 @@
-
+A questão 1 foi realizadas sem problemas. Lógica simples e fácil de enteder, após concluir o código pela primeira vez, apenas precisei de alguns ajustes com o primeiro test case e o submit foi bem-sucedido.
