@@ -3,7 +3,7 @@
 int main(){
 
     int n, m;
-    char matriz[10][10] = {0}, aux;
+    char matriz[100][100] = {0}, aux;
 
     scanf("%d %d", &n, &m);
     getchar();
