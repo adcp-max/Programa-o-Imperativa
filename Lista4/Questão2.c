@@ -1,19 +1,23 @@
 #include <stdio.h>
 
+void limpaQuebra(){
+    getchar();
+}
+
 int main(){
 
     int n, m;
     char matriz[100][100] = {0}, aux;
 
     scanf("%d %d", &n, &m);
-    getchar();
+    limpaQuebra();
     
     for(int i=0;i<n;i++){
         for (int j=0;j<m;j++){
             scanf("%c", &aux);
             matriz[i][j] = aux;
         }
-        getchar();
+        limpaQuebra();
     }
 
     for(int i=0;i<n;i++){
@@ -37,7 +41,6 @@ int main(){
             }
         }
     }
-    printf("\n");
     for(int i=0;i<n;i++){
         for (int j=0;j<m;j++){
             printf("%c", matriz[i][j]);
