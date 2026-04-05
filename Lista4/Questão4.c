@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int limpaQuebra(){
+void limpaQuebra(){
     getchar();
 }
 
