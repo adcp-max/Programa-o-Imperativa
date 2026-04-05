@@ -7,7 +7,7 @@ void limpaQuebra(){
 int main(){
 
     int m,n;
-    char matriz[5][5]= {0}, aux;
+    char matriz[100][100]= {0}, aux;
 
     scanf("%d %d", &m, &n);
     limpaQuebra();
