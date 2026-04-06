@@ -1,5 +1,9 @@
 #include <stdio.h>
 
+void printar(int x, int y){
+    printf("Coordenada X: %d, Y: %d", x, y);
+}
+
 int main(){
 
     int yatual=0, xatual=0, matriz[4][4] = {{0, 1, 1, 0}, {1, 2, 5, 2}, {1, 1, 2, 1}, {0, 1, 1, 1}};
@@ -33,7 +37,7 @@ int main(){
         }
     }
 
-    printf("Coordenada X: %d, Y: %d", maiorX, maiorY);
+    printar(maiorX, maiorY);
 
     return 0;
 }
